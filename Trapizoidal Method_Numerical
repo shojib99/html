@@ -1,0 +1,16 @@
+x0 = input("Enter the value of x0: "); 
+x1 = input("Enter the value of x1: "); 
+x2 = input("Enter the value of x2: "); 
+x3 = input("Enter the value of x3: "); 
+x4= input("Enter the value of x4: "); 
+
+
+fx0 = input("Enter the value of x0: "); 
+fx1 = input("Enter the value of x1: "); 
+fx2 = input("Enter the value of x2: "); 
+fx3 = input("Enter the value of x3: "); 
+fx4 = input("Enter the value of x4: "); 
+
+
+T= (x1 - x0) / 2 *(fx0 + (2*fx1) + (2*fx2) + (2*fx3) + fx4 );
+fprintf("The root is T :%f ", T);
